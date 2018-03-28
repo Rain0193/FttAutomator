@@ -1,0 +1,38 @@
+#ftt uiautomator selector
+# app动画中跳出按钮
+skip_btn:
+  resourceId: com.iqiyi.ivrcinema.cb:id/skip_text
+
+# 视频
+video_tab:
+  resourceId: com.iqiyi.ivrcinema.cb:id/id_tab_recommend
+  extand:
+   method: child
+   text: 视频
+   className: android.widget.TextView
+
+# 游戏
+game_tab:
+  resourceId: com.iqiyi.ivrcinema.cb:id/id_tab_game
+  extand:
+    method: child
+    text: 游戏
+    className: android.widget.TextView
+
+# 搜索
+search_tab:
+  resourceId: com.iqiyi.ivrcinema.cb:id/id_tab_search
+  extand:
+    method: child
+    text: 搜索
+    className: android.widget.TextView
+
+# 我的
+my_tab:
+  resourceId: com.iqiyi.ivrcinema.cb:id/id_tab_me
+  extand:
+    method: child
+    text: 我的
+    className: android.widget.TextView
+
+
